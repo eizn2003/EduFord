@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erneste IZERE NEZA">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>EduFord -- What You Need To Know About Us</title>
+</head>
+
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="EduFord Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26002.029239769992!2d30.079461086241977!3d-1.9399229747148268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6c43a09d8a5%3A0xfb4f1ab02ad0cbab!2sNyarutarama%2C%20Kigali!5e1!3m2!1sen!2srw!4v1781358580642!5m2!1sen!2srw"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-column">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Nyarutarama, KG 240 ST</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+250 780 000 000</h5>
+                        <p>Open 24/7</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>eduforrwanda@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-column">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <input type="text" placeholder="Enter Your Subject">
+                    <textarea rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Empowering students through quality education, innovation, <br> and lifelong learning to build a brighter
+            future.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+
+</html>
